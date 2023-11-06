@@ -48,7 +48,7 @@ body {
 }
 
 .heading_container h2 span {
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .heading_container.heading_center {
@@ -109,12 +109,12 @@ a:focus {
 }
 
 .header_section {
-  border-top: 15px solid #da7426;
+  border-top: 15px solid #f8b10f;
 }
 
 .header_section .header_top {
   padding: 15px 0;
-  background-color: #003471cc;
+  background-color: #17a2b896;
 }
 
 #logotext {
@@ -177,7 +177,7 @@ a:focus {
 }
 
 .header_section .header_top .contact_nav a:hover i {
-  background-color: #da7426;
+  background-color: #f8b10f;
 }
 
 .header_section .header_top .social_box {
@@ -205,7 +205,7 @@ a:focus {
 }
 
 .header_section .header_top .social_box a:hover i {
-  background-color: #da7426;
+  background-color: #f8b10f;
 }
 
 .header_section .header_bottom {
@@ -221,11 +221,11 @@ a:focus {
 .navbar-brand {
   color: #ffffff;
   font-weight: bold;
-  font-size: 24px;
+  font-size: 30px;
 }
 
 .navbar-brand span {
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .navbar-brand:hover {
@@ -244,6 +244,7 @@ a:focus {
   margin: auto;
 }
 
+
 .custom_nav-container .navbar-nav .nav-item .nav-link {
   padding: 5px 30px;
   color: #22768b;
@@ -260,7 +261,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link {
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -272,7 +273,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -398,19 +399,20 @@ a:focus {
   position: unset;
 }
 
+
 .slider_section .detail-box {
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .slider_section .detail-box h1 {
   font-weight: 600;
   margin-bottom: 0;
   color: #ffffff;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .address{
-  color: #da7426;
+  color: #e9ecef;
   font-weight: bold;
   font-size: 23px;
 }
@@ -453,17 +455,17 @@ a:focus {
 .slider_section .detail-box .btn-box .btn2 {
   display: inline-block;
   padding: 10px 15px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #f8b10f;
 }
 
 .slider_section .detail-box .btn-box .btn2:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .slider_section .img-box img {
@@ -493,7 +495,7 @@ a:focus {
   background-color: #ffffff;
   opacity: 1;
   border-radius: 100%;
-  color: #003471;
+  color: #247997;
   font-size: 14px;
   -webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
           box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.25);
@@ -502,7 +504,7 @@ a:focus {
 }
 
 .slider_section .carousel_btn-box a:hover {
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
 }
 
@@ -539,22 +541,23 @@ a:focus {
 .about_section .detail-box a {
   display: inline-block;
   padding: 10px 35px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #f8b10f;
   margin-top: 15px;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .general_section {
-  background-color: #003471;
+  background-color: 
+#17a2b8;
   color: #ffffff;
   padding-top: 45px;
 }
@@ -637,12 +640,12 @@ a:focus {
 
 .portfolio_section .box .img-box .btn_overlay a {
   padding: 10px 45px;
-  border: 1px solid #da7426;
-  color: #da7426;
+  border: 1px solid #f8b10f;
+  color: #f8b10f;
 }
 
 .portfolio_section .box .img-box .btn_overlay a:hover {
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
 }
 
@@ -688,7 +691,8 @@ a:focus {
 }
 
 .portfolio_section .portfolio_carousel .owl-nav button:hover {
-  background-color: #003471;
+  background-color: 
+#17a2b8;
   color: #ffffff;
 }
 
@@ -758,7 +762,7 @@ a:focus {
 }
 
 .service_section .box:hover {
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
 }
 
@@ -780,17 +784,17 @@ a:focus {
 .service_section .btn-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
   border-radius: 0;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #f8b10f;
 }
 
 .service_section .btn-box a:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .contact_section {
@@ -808,7 +812,8 @@ a:focus {
 }
 
 .contact_section .form_container {
-  background-color: #003471;
+  background-color: 
+#17a2b8;
   padding: 45px;
 }
 
@@ -856,17 +861,17 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 12px 55px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all .3s;
   transition: all .3s;
-  border: 1px solid #da7426;
+  border: 1px solid #f8b10f;
 }
 
 .contact_section .form_container .btn_box button:hover {
   background-color: transparent;
-  color: #da7426;
+  color: #f8b10f;
 }
 
 .contact_section .map_container {
@@ -935,7 +940,7 @@ a:focus {
   width: 145px;
   min-width: 145px;
   position: relative;
-  border: 10px solid #da7426;
+  border: 10px solid #f8b10f;
 }
 
 .client_section .box .img-box img {
@@ -970,7 +975,7 @@ a:focus {
 }
 
 .client_section .carousel-indicators li {
-  background-color: #da7426;
+  background-color: #f8b10f;
   width: 20px;
   height: 20px;
   border: none;
@@ -981,7 +986,8 @@ a:focus {
 }
 
 .client_section .carousel-indicators li.active {
-  background-color: #003471;
+  background-color: 
+#17a2b8;
 }
 
 /* info section */
@@ -1034,7 +1040,7 @@ a:focus {
   color: #ffffff;
   width: 30px;
   height: 30px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   border-radius: 100%;
   margin-right: 5px;
 }
@@ -1096,7 +1102,7 @@ a:focus {
   width: 45px;
   height: 45px;
   line-height: 45px;
-  border: 1px solid #da7426;
+  border: 1px solid #f8b10f;
   text-align: center;
   border-radius: 5px;
   font-size: 18px;
@@ -1121,7 +1127,7 @@ a:focus {
 .info_form form button {
   width: 45px;
   height: 45px;
-  background-color: #da7426;
+  background-color: #f8b10f;
   color: #ffffff;
   border: none;
   outline: none;
