@@ -414,7 +414,7 @@ a:focus {
 .address{
   color: #e9ecef;
   font-weight: bold;
-  font-size: 23px;
+  font-size: 20px;
 }
 .slider_section .detail-box p {
   color: #6d6d6d;
@@ -805,8 +805,8 @@ a:focus {
 
 .contact_section .form_container {
   background-color: 
-#17a2b8;
-  padding: 45px;
+  #17a2b8;
+  padding: 30px;
 }
 
 .home_paragraph {
