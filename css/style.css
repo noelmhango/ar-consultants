@@ -6,7 +6,7 @@ body {
 }
 
 .layout_padding {
-  padding: 90px 0;
+  padding: 15px 0;
 }
 
 .layout_padding2 {
@@ -726,6 +726,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  height: 93%;
 }
 
 .service_section .box .img-box {
@@ -806,6 +807,11 @@ a:focus {
   background-color: 
 #17a2b8;
   padding: 45px;
+}
+
+.home_paragraph {
+  font-size: 50px;
+  color: #000000;
 }
 
 .contact_section .form_container .form-control {
