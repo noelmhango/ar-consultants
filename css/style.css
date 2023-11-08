@@ -750,6 +750,13 @@ a:focus {
   transition: all .3s;
 }
 
+.service_section .box .img-box-event img {
+  max-height: 100%;
+  max-width: 100%;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
 .service_section .box .detail-box {
   margin-top: 15px;
 }
@@ -775,6 +782,7 @@ a:focus {
 
 .service_section .btn-box a {
   display: inline-block;
+  margin: 20px;
   padding: 10px 45px;
   background-color: #f8b10f;
   color: #ffffff;
@@ -1148,5 +1156,25 @@ a:focus {
 
 .footer_section p a {
   color: inherit;
+}
+
+.venue-date{
+  margin: 20px;
+  color: #0087f7;
+}
+
+.venue-date p span{
+  color: #f8b10f;
+}
+
+.content-info p{
+  color:#fbfeff !important;
+  font-size: 30px;
+}
+
+.content-head h2{
+  font-size: 60px;
+  color:#00dcff;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
