@@ -12,7 +12,7 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Service-AR Consultants</title>
+  <title>Contact-AR Consultants</title>
 
   <!-- favicon -->
   <link rel="icon" type="image/x-icon" href="images/favicon/favicon.ico">
@@ -99,7 +99,7 @@
                   <a class="nav-link" href="events.html">Events</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="contact.php">Contact Us</a>
+                  <a class="nav-link" href="contact.html">Contact Us</a>
                 </li>
               </ul>
             </div>
@@ -117,97 +117,78 @@
             <div class="container ">
               <div class="detail-box">
                 <div class="content-head">
-                  <h2> Services </h2>
+                  <h2> Contact Us </h2>
                 </div>
                 <div class="content-info">
-                  <p>We assist clients at every stage of creating
-                    and refining records keeping, information management, and governance procedures.</p>
+                  <p>Are you looking to work with us or discuss a possible project? 
+                    Get in touch with us.</p>
                 </div>
-              </div> 
+              </div>   
             </div>
           </div>
         </div>
       </div>
     </section>
-    <!-- end slider section -->  </div>
-
-  <!-- service section -->
-  <section class="service_section layout_padding">
-    <div class="container ">
+    <!-- end slider section -->
+  </div>
+  
+  <!-- contact section -->
+  <section class="contact_section layout_padding">
+    <div class="container">
       <div class="heading_container heading_center">
-        <h2>Our <span>Services</span></h2>
+        <h2>Get In <span>Touch</span></h2>
       </div>
       <div class="row">
-        <div class="col-sm-6 col-md-6">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/users-solid.svg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>
-                1. Trainings
-              </h5>
-              <p>
-                <i class="fa fa-check"></i> AR Records offers a diverse range of training programs tailored to meet the needs of various professionals, including but not limited to librarians, information officers, records officers, archives officers, and ICT officers.  <br> <br>
-                <i class="fa fa-check"></i> Our training courses are designed to provide participants with a competitive advantage in the realm of records and information management. By joining our programs, you can ensure that your organization stands out in terms of corporate governance and accountability.
-              </p>
-            </div>
+        <div class="col-md-6 px-0">
+          <div class="form_container">
+            <form action="message.php" method="POST">
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="form-control" placeholder="Your Full Name"  name="name"/>
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col inlne">
+                  <input type="email" class="form-control" placeholder="Your Email Address" name="email" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="form-control" placeholder="Subject"  name="subject" />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group col">
+                  <input type="text" class="message-box form-control" placeholder="Write Your Message here" name="body" />
+                </div>
+              </div>
+              <div class="btn_box">
+               <input style="background-color: #f8b10f;" type="submit" class="form-control btn2" placeholder="Send Message"  name="submit" />
+
+              </div>
+            </form>
           </div>
         </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/link-solid.svg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>
-                2. Consulting 
-              </h5>
-              <p>
-                <i class="fa fa-check"></i> Our consulting services are crafted to provide your organization with tailored solutions to enhance records and information management. <br> <br>
-                <i class="fa fa-check"></i> We collaborate with you to develop strategies that optimize your information assets, ensure regulatory compliance, and streamline operational efficiency.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/computer-solid.svg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>
-                3. Digitalization 
-              </h5>
-              <p>
-                <i class="fa fa-check"></i> Embrace the digital transformation with our digitization services. We can assist you in the process of converting your physical records into digital formats. <br> <br>
-                <i class="fa fa-check"></i> This not only facilitates easy access and retrieval but also ensures long-term preservation of critical information assets.
-              </p>
-            </div>
-          </div>
-        </div>
-        <div class="col-sm-6 col-md-6">
-          <div class="box ">
-            <div class="img-box">
-              <img src="images/book-solid.svg" alt="" />
-            </div>
-            <div class="detail-box">
-              <h5>
-                4. Research
-              </h5>
-              <p>
-                <i class="fa fa-check"></i> Stay at the forefront of records and information management trends with our research services.  <br> <br>
-                <i class="fa fa-check"></i> We conduct in-depth studies, keeping you informed about the latest developments and best practices in the field. Our aim is to provide you with valuable insights and actionable recommendations to drive your organization forward.
-              </p>
-            </div>
+        <div class="col-md-6 px-0 form_container info_section">
+          <div style="margin: 5px;">
+            <h4 class="address">
+                AR Records and Information Management Consultants
+              </br> P.O. Box 524
+              </br> Mzuzu
+              <br> Malawi.
+            </h4>            
+           </br>
+            <h4><i class="fa fa-envelope" aria-hidden="true"></i> info@arconsultants.mw </h4> </br>
+            <h4><i class="fa fa-phone" aria-hidden="true"></i> +265 995 635 299 </h4>
+            <h4><i class="fa fa-phone" aria-hidden="true"></i> +265 888 126 382 </h4>
           </div>
         </div>
       </div>
     </div>
   </section>
+  <!-- end contact section -->
 
-  <!-- end service section -->
-
+  
   <!-- info section -->
 
   <section class="info_section ">
@@ -218,13 +199,13 @@
         </div>
         <div class="info_main">
           <div class="row">
-            <div class="col-md-3 col-lg-2">
+            <div class="col-md-4 col-lg-2">
               <div class="info_link-box">
                 <h5>
                   Useful Links
                 </h5>
                 <ul>
-                  <li class="active">
+                  <li class=" active">
                     <a class="" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="">
@@ -234,21 +215,21 @@
                     <a class="" href="service.html">Services </a>
                   </li>
                   <li class="">
-                    <a class="" href="events.html"> Portfolio </a>
+                    <a class="" href="portfolio.html"> Portfolio </a>
                   </li>
                   <li class="">
-                    <a class="" href="contact.php"> Contact </a>
+                    <a class="" href="contact.html"> Contact </a>
                   </li>
                 </ul>
               </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-4">
               <h5>
                 Our Expertise
               </h5>
               <ul>
                 <li>Information Management Trainings</li>
-                <li>Office Information Digitalization</li>
+                <li>Office Information Digitization</li>
                 <li>Records Management Consultancy</li>
                 <li>Research</li>
               </ul>
@@ -307,7 +288,6 @@
                 </div>
               </div>
             </div>
-          </div>
         </div>
       </div>
     </div>
