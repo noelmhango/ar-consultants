@@ -92,6 +92,10 @@ a:focus {
   background-size: cover;
 }
 
+.slider_section #service_area{
+  background-image: url(../images/gift-noniwa.png) !important;
+}
+
 
 .sub_page .hero_area {
   height: auto;
@@ -1176,5 +1180,9 @@ a:focus {
   font-size: 60px;
   color:#00dcff;
   text-align: center;
+}
+
+.box .person-contact p{
+  color: red;
 }
 /*# sourceMappingURL=style.css.map */

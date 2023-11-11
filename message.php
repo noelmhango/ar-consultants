@@ -40,10 +40,10 @@ else{
 
         //Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress("bis16-nmhango@poly.ac.mw");     //Add a recipient
+        $mail->addAddress("info@arconsultants.mw");     //Add a recipient
         $mail->addReplyTo($email, $name);                              // Add Reply to
         //$mail->addCC();                  //Add Copy address
-    
+
         //Content
         $mail->isHTML(true);                                  //Set email format to HTML
         $mail->Subject = $subject;
@@ -54,17 +54,17 @@ else{
             echo 'alert("Technical Error: Your Message was not sent, Try again later")';
             echo '</script>';
             header("Refresh:1, url=contact.php");
-           exit();
+            exit();
         }
         else{
             echo '<script language="javascript">';
             echo 'alert("Your Message was successfully sent, Someone from AR Consultants will attend to your query as soon as possible")';
             echo '</script>';
             header("Refresh:1, url=contact.php");
-           exit();
+            exit();
         }
     }
-        
+
 }
 
-       
+
